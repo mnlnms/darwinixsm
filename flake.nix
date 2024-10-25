@@ -53,6 +53,7 @@
 	  # Dotfile - Management
           "chezmoi"
 	  # Editors
+		  "neovide"
           "neovim"
 	  # Other CLI - Tools
 	  "bitwarden-cli"
