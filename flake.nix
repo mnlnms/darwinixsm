@@ -32,7 +32,7 @@
 	homebrew = {
           enable = true;
   	brews = [
-	  # Installing & updateing MacOS AppStore Packages via nix-darwin
+	  # Installing & updating MacOS AppStore Packages via nix-darwin
   	  "mas"
           # terminal / cli
 	  "fd"
