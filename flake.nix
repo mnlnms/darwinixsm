@@ -62,18 +62,20 @@
 	  # Work
   	  "microsoft-edge"
 	  "microsoft-teams"
-          "webex"
+	  "webex"
 	  "powershell"
 	  # Private
   	  "iina"
 	  "spotify"
 	  "firefox"
 	  # System
-          "alacritty"
+      "alacritty"
 	  "betterdisplay"
   	  "raycast"
 	  "wezterm"
 	  "zerotier-one"
+	  # Virtualization
+	  "vmware-fusion"
   	];
   	masApps = {
           # Microsoft Office
