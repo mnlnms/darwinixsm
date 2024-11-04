@@ -64,6 +64,8 @@
 	  "microsoft-teams"
 	  "webex"
 	  "powershell"
+	  # Editors
+	  "visual-studio-code"
 	  # Private
   	  "iina"
 	  "spotify"
