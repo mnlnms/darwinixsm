@@ -34,11 +34,11 @@
   	brews = [
 	  # Installing & updating MacOS AppStore Packages via nix-darwin
   	  "mas"
-          # terminal / cli
+	  # terminal / cli
 	  "fd"
 	  "fzf"
 	  "oh-my-posh"
-          "ripgrep"
+	  "ripgrep"
 	  "tmux"
 	  "yazi"
 	  # yazi prerequisition
@@ -48,15 +48,17 @@
 	  "sevenzip"
 	  "xclip"
 	  # end
-          "zellij"
+	  "zellij"
 	  "zoxide"
 	  # Dotfile - Management
-          "chezmoi"
+	  "chezmoi"
 	  # Editors
-		  "neovide"
-          "neovim"
+	  "neovide"
+	  "neovim"
 	  # Other CLI - Tools
 	  "bitwarden-cli"
+	  # Virtual Machines / Dev Containers
+	  "colima"
   	];
   	casks = [
 	  # Work
