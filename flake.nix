@@ -59,6 +59,7 @@
 	  "bitwarden-cli"
 	  # Virtual Machines / Dev Containers
 	  "colima"
+	  "docker"
 	  "incus"
   	];
   	casks = [
