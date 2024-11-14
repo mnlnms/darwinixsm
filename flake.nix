@@ -74,6 +74,7 @@
   	  "iina"
 	  "spotify"
 	  "firefox"
+	  "winbox"
 	  # System
       "alacritty"
 	  "betterdisplay"
