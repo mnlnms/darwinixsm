@@ -117,7 +117,17 @@
 							show-recents = false;
 							tilesize = 32;
 						};
-						finder.FXPreferredViewStyle = "clmv";
+						finder = {
+							AppleShowAllExtensions = true;
+							ApppleShowAllFiles = true;
+							FXDefaultSearchScope = "SCcf";
+							FXEnableExtensionChangeWarning = false;
+							FXPreferredViewStyle = "clmv";
+							NewWindowTarget = "Home";
+							ShowPathbar = true;
+							ShowStatusBar = true;
+						};
+						hitoolbox.AppleFnUsageType = "Do Nothing";
 						loginwindow.GuestEnabled = false;
 						trackpad = {
 							Clicking = true;
@@ -127,6 +137,8 @@
 						NSGlobalDomain = {
 							AppleICUForce24HourTime = true;
 							AppleInterfaceStyle = "Dark";
+							AppleShowAllExtensions = true;
+							ApppleShowAllFiles = true;
 							KeyRepeat = 2;
 						};
 					};
