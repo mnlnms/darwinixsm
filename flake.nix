@@ -119,7 +119,7 @@
 						};
 						finder = {
 							AppleShowAllExtensions = true;
-							ApppleShowAllFiles = true;
+							AppleShowAllFiles = true;
 							FXDefaultSearchScope = "SCcf";
 							FXEnableExtensionChangeWarning = false;
 							FXPreferredViewStyle = "clmv";
@@ -138,7 +138,7 @@
 							AppleICUForce24HourTime = true;
 							AppleInterfaceStyle = "Dark";
 							AppleShowAllExtensions = true;
-							ApppleShowAllFiles = true;
+							AppleShowAllFiles = true;
 							KeyRepeat = 2;
 						};
 					};
