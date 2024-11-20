@@ -70,6 +70,7 @@
 						# Editors
 						"visual-studio-code"
 						# Private
+						"chrome"
 						"iina"
 						"spotify"
 						"firefox"
