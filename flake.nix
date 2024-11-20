@@ -70,10 +70,10 @@
 						# Editors
 						"visual-studio-code"
 						# Private
-						"chrome"
 						"iina"
 						"spotify"
 						"firefox"
+						"firefox@developer-edition"
 						"winbox"
 						# System
 						"alacritty"
