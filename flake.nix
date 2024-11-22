@@ -63,6 +63,7 @@
 					];
 					casks = [
 						# Work
+						"citrix-workspace"
 						"microsoft-edge"
 						"microsoft-teams"
 						"webex"
