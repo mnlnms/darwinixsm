@@ -60,6 +60,7 @@
 						# Virtual Machines / Dev Containers
 						"colima"
 						"docker"
+						"qemu"
 					];
 					casks = [
 						# Work
