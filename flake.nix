@@ -115,7 +115,7 @@
 								"/System/Applications/Mail.app"
 								"/System/Applications/Calendar.app"
 							];
-							orientation = "left";
+							orientation = "right";
 							show-recents = false;
 							tilesize = 32;
 						};
@@ -143,6 +143,7 @@
 							AppleShowAllFiles = true;
 							KeyRepeat = 2;
 						};
+						WindowManager.GloballyEnabled = true;
 					};
 					startup.chime = false;
 				};
