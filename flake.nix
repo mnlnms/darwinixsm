@@ -80,6 +80,7 @@
 						# System
 						"alacritty"
 						"betterdisplay"
+						"karabiner-elements"
 						"raycast"
 						"wezterm"
 						"zerotier-one"
