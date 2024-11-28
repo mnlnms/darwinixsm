@@ -53,7 +53,6 @@
 						# Dotfile - Management
 						"chezmoi"
 						# Editors
-						"neovide"
 						"neovim"
 						# Other CLI - Tools
 						"bitwarden-cli"
@@ -71,6 +70,7 @@
 						"powershell"
 						# Editors
 						"visual-studio-code"
+						"zed"
 						# Private
 						"iina"
 						"spotify"
