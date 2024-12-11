@@ -7,5 +7,7 @@
   environment.systemPackages = with pkgs;
     [
       fastfetch
+	  nushell
+	  starship
     ];
 }
