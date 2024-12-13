@@ -8,7 +8,7 @@
     nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
   };
 
-  outputs = 
+  outputs =
     { self,
       nixpkgs,
       nix-darwin,
@@ -19,9 +19,9 @@
     let
       configuration = { pkgs, config, ... }: {
         environment.systemPackages = with pkgs;
-          [ 
+          [
           ];
-	
+
 				environment.etc = {
 					"pam.d/sudo_local".text = ''
 						# Managed by Nix-Darwin
@@ -90,6 +90,7 @@
 					masApps = {
 						# Microsoft Office
 						"Microsoft Word" = 462054704;
+						"Microsoft Excel" = 586683407;
 						"Microsoft Outlook" = 985367838;
 						# Safari Extensions
 						"Bitwarden - Safari" = 1352778147;
@@ -99,15 +100,15 @@
 					onActivation.autoUpdate = true;
 					onActivation.upgrade = true;
 				};
-				
+
 				networking = {
 				hostName = "mcbk-air.nemes.cc";
 				localHostName = "mcbk-air";
 				computerName = "mcbk-air";
 				};
-				
+
 				security.pam.enableSudoTouchIdAuth = true;
-				
+
 				system = {
 					defaults = {
 						dock = {
@@ -149,13 +150,13 @@
 					};
 					startup.chime = false;
 				};
-				
+
 				users.users.mnl.home = "/Users/mnl";
 
 				fonts.packages = with pkgs; [
 					(nerdfonts.override { fonts = ["FiraCode" "JetBrainsMono"]; })
 				];
-				
+
 				# Auto upgrade nix package and the daemon service.
 				services.nix-daemon.enable = true;
 				# nix.package = pkgs.nix;
@@ -184,7 +185,7 @@
       # $ darwin-rebuild build --flake .#simple
       darwinConfigurations."air" = nix-darwin.lib.darwinSystem {
         # specialArgs = { inherit inputs; };
-        modules = [ 
+        modules = [
           configuration
 	  			./configuration.nix
   	  		nix-homebrew.darwinModules.nix-homebrew
@@ -197,7 +198,7 @@
   	  		}
         ];
       };
-  
+
       # Expose the package set, including overlays, for convenience.
       darwinPackages = self.darwinConfigurations."air".pkgs;
     };
