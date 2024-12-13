@@ -90,7 +90,7 @@
 					masApps = {
 						# Microsoft Office
 						"Microsoft Word" = 462054704;
-						"Microsoft Excel" = 586683407;
+						"Microsoft Excel" = 462058435;
 						"Microsoft Outlook" = 985367838;
 						# Safari Extensions
 						"Bitwarden - Safari" = 1352778147;
