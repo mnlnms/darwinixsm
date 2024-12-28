@@ -80,6 +80,7 @@
 						# System
 						"alacritty"
 						"betterdisplay"
+						"ghostty"
 						"karabiner-elements"
 						"raycast"
 						"wezterm"
