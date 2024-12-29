@@ -74,16 +74,13 @@
 						# Private
 						"iina"
 						"spotify"
-						"firefox"
-						"firefox@developer-edition"
 						"winbox"
+						"zen-browser"
 						# System
-						"alacritty"
 						"betterdisplay"
 						"ghostty"
 						"karabiner-elements"
 						"raycast"
-						"wezterm"
 						"zerotier-one"
 						# Virtualization
 						"vmware-fusion"
