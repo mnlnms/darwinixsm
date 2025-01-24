@@ -73,6 +73,7 @@
 						"zed"
 						# Private
 						"iina"
+						"moonlight"
 						"spotify"
 						"winbox"
 						"zen-browser"
