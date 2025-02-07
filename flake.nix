@@ -60,6 +60,8 @@
 						"colima"
 						"docker"
 						"qemu"
+						# Talos
+						"talosctl"
 					];
 					casks = [
 						# Work
