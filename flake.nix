@@ -62,6 +62,7 @@
 						"qemu"
 						# Talos
 						"talosctl"
+						"kubectl"
 					];
 					casks = [
 						# Work
