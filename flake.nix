@@ -87,6 +87,7 @@
 						"raycast"
 						"zerotier-one"
 						# Virtualization
+						"vnc-viewer"
 						"vmware-fusion"
 					];
 					masApps = {
